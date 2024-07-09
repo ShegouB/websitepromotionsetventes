@@ -1,0 +1,95 @@
+.nav-link {
+    color: blue;
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Ajoute un soulignement lors du survol */
+}
+
+.hero-section {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+/* Styles pour la bannière */
+.banner-section {
+    text-align: center;
+    background-color: #f8f9fa; /* Couleur de fond pour le cas où l'image n'occupe pas toute la largeur */
+    height: 100vh; /* Hauteur de la section de la bannière pour couvrir l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-section img {
+    width: auto;
+    height: 100%; /* Hauteur maximale de l'image */
+    max-width: 100%; /* Largeur maximale de l'image */
+    object-fit: cover; /* Assure que l'image couvre toute la largeur sans déformation */
+}
+
+/* Pour une hauteur maximale de 200px */
+.carousel-item img {
+    width: 100%;
+    height: 200px; /* ou 175px selon votre préférence */
+    object-fit: cover; /* Cette propriété CSS permet de s'assurer que les images remplissent bien l'espace sans être étirées */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-img-top {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+
+#produits {
+    margin-top: 100px;
+}
+
+
+#contactForm .form-group {
+    margin-bottom: 15px;
+}
+
+#contactForm label {
+    font-weight: bold;
+}
+
+#contactForm .btn {
+    background-color: #007bff;
+    border: none;
+}
+
+#contactForm .btn:hover {
+    background-color: #0056b3;
+}
+
+body {
+    padding-top: 80px; /* Ajoute de l'espace pour la barre de navigation fixe */
+}
+
+/* Footer */
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-icons a {
+    font-size: 10em;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #d1d1d1;
+}
